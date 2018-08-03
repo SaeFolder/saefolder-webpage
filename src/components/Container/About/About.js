@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Visual_wrap from './Visual_wrap/Visual_wrap'
+import VisualWrap from './VisualWrap/VisualWrap'
 import Introduce from './Introduce/Introduce'
 import Crew from './Crew/Crew'
 import Vision from './Vision/Vision'
@@ -10,7 +10,7 @@ class about extends Component {
   render() {
     return (
       <div>
-        <Visual_wrap/>
+        <VisualWrap/>
         <Introduce/>
         <Crew/>
         <Vision/>

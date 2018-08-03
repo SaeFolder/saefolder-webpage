@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Visual_wrap extends Component {
+class VisualWrap extends Component {
   state = {  }
   render() {
     return (
@@ -11,4 +11,4 @@ class Visual_wrap extends Component {
   }
 }
 
-export default Visual_wrap;
+export default VisualWrap;
