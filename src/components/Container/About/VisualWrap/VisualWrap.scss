@@ -1,0 +1,45 @@
+.main {
+    // 백그라운드 이미지
+    background-image: url('../../../../assets/img/main_image.png');
+    background-size: cover;
+    height: 778.5px;
+    min-width: 640px;
+    // display: block;
+    position: relative;
+    
+    .text{
+        position: absolute;
+        width: 100%;
+        height: 778.5px;
+        color: white;
+        text-align: center;
+        
+        // our name
+        .text_1{
+            font-size: 45px;
+            letter-spacing: 6.75px;
+            padding-top: 229.5px;
+        }
+
+        // 새 로 운 시 작
+        .text_2{
+            font-size: 54px;
+            word-spacing: 200px;
+            padding-top: 72px;
+        }
+
+        //주말~
+        .text_3{
+            font-size: 22.5px;
+            padding-top: 72px;
+        }
+        
+    }
+}
+
+// 'our new' : 60pt, 자간 300
+// '새로운 시작' : 72pt, 자간 4000, main_image 정 가운데
+// '내용' : 30pt, 글 간격 72pt
+// - 'our~' + 135px + '새로운~' + 135px + '내용~'
+// - 가운데 정렬
+

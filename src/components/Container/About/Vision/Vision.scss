@@ -1,0 +1,61 @@
+
+.vision {
+  width: 100%;
+  min-width: 640px;
+  height: 420px;
+  
+  .header{
+    margin-top: 246px;
+    display: block;
+    display: flex;
+    text-align: left;
+  
+    .title {
+      color: #000599;
+      position: relative;
+      display: inline-block;
+      padding-left: 101.25px;
+      font-size: 73.125px;
+      bottom: 29.75px;
+      letter-spacing: 27px;
+      font-weight: bold;
+    }
+
+    // 반원
+    .title_img{
+      height: 121.5px;
+    }
+  }
+  
+  .main{
+    display: flex;
+    align-content: center;
+    // margin-top: 193px;
+    // margin-left: 145px;
+    // margin-right: 145px;
+  }
+  
+  .line{
+    margin-top: 66px;
+    width: 205px;
+    height: 1px;
+    color: #2e3192;
+  }
+  
+  .name{
+    font-size: 48pt;
+    text-align: center;
+    color: #2E3192;
+  }
+  
+  .wendy{
+    height: 306px;
+  }
+  
+  .joy{
+  }
+  
+  .yeri{
+  }
+
+}
