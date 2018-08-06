@@ -2,13 +2,14 @@
 .vision {
   width: 100%;
   min-width: 640px;
-  height: 420px;
+  height: 945px;
   
   .header{
-    margin-top: 246px;
+    padding-top: 94.5px;
     display: block;
     display: flex;
     text-align: left;
+    height: 234px;
   
     .title {
       color: #000599;
@@ -29,33 +30,49 @@
   
   .main{
     display: flex;
-    align-content: center;
+    text-align: center;
+    // align-content: center;
     // margin-top: 193px;
     // margin-left: 145px;
     // margin-right: 145px;
+    padding-left: 182.25px;
   }
   
   .line{
-    margin-top: 66px;
-    width: 205px;
-    height: 1px;
+    margin-top: 47.25px;
+    width: 193.5px;
+    height: 2.25px;
     color: #2e3192;
   }
   
   .name{
-    font-size: 48pt;
+    font-size: 36px;
     text-align: center;
     color: #2E3192;
+    letter-spacing: 2.25px;
   }
   
   .wendy{
-    height: 306px;
+    .img_wendy {
+      height: 306px;
+      width: 306px;
+    }
+    padding-right: 119.25px;
   }
   
   .joy{
+    .img_joy {
+      height: 306px;
+      width: 306px;
+    }
+    padding-right: 119.25px;
   }
   
   .yeri{
+    .img_yeri {
+      height: 306px;
+      width: 306px;
+    }
   }
 
 }
