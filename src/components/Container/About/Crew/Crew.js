@@ -13,7 +13,7 @@ class Crew extends Component {
 
         {/* 크루소개 및 반원 */}
         <div className={styles.header}>
-          <img src={Ellipse2} className={styles.title_img}/>
+          <img src={Ellipse2} className={styles.title_img} alt="img"/>
           <h1 className={styles.title}>크루소개</h1>
         </div>
 
@@ -22,9 +22,9 @@ class Crew extends Component {
 
           {/* 아이린 */}
           <div className={styles.intro1}>
-            <img src={line_img} className={styles.intro1_top_ln}/>
+            <img src={line_img} className={styles.intro1_top_ln} alt="img"/>
             <div className={styles.intro1_contents}>
-              <img src={irene} className={styles.irene}/>
+              <img src={irene} className={styles.irene} alt="img"/>
               <div className={styles.irene_info}>
                 <p className={styles.irene_name}>
                   아이린&nbsp;&nbsp;IRINE
@@ -37,14 +37,14 @@ class Crew extends Component {
                 </p>
               </div>
             </div>
-            <img src={line_img} className={styles.intro1_bottom_ln}/>
+            <img src={line_img} className={styles.intro1_bottom_ln} alt="img"/>
           </div>
 
           {/* 슬기 */}
           <div className={styles.intro2}>
-            <img src={line_img} className={styles.intro2_top_ln}/>
+            <img src={line_img} className={styles.intro2_top_ln} alt="img"/>
             <div className={styles.intro2_contents}>
-              <img src={seulgi} className={styles.seulgi}/>
+              <img src={seulgi} className={styles.seulgi} alt="img"/>
               <div className={styles.seulgi_info}>
                 <p className={styles.seulgi_name}>
                   슬기&nbsp;&nbsp;SEULGI
@@ -57,7 +57,7 @@ class Crew extends Component {
                 </p>
               </div>
             </div>
-            <img src={line_img} className={styles.intro2_bottom_ln}/>
+            <img src={line_img} className={styles.intro2_bottom_ln} alt="img"/>
           </div>
 
         </div>

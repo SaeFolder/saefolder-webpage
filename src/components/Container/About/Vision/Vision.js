@@ -13,7 +13,7 @@ class Vision extends Component {
 
         {/* VISION */}
         <div className={styles.header}>
-          <img src={Ellipse1} className={styles.title_img}/>
+          <img src={Ellipse1} className={styles.title_img}  alt="img"/>
           <h1 className={styles.title}>VISION</h1>
         </div>
 
@@ -21,23 +21,23 @@ class Vision extends Component {
         <div className={styles.main}>
 
           <div className={styles.wendy}>
-            <img src={wendy} className={styles.img_wendy}/>
+            <img src={wendy} className={styles.img_wendy}  alt="img"/>
             <hr className={styles.line}/>
             <p className={styles.name}>wendy</p>
           </div>
 
           <div className={styles.joy}>
-            <img src={joy} className={styles.img_joy}/>
+            <img src={joy} className={styles.img_joy}  alt="img"/>
             <hr className={styles.line}/>
             <p className={styles.name}>joy</p>
           </div>
 
           <div className={styles.yeri}>
-            <img src={yeri} className={styles.img_yeri}/>
+            <img src={yeri} className={styles.img_yeri}  alt="img"/>
             <hr className={styles.line}/>
             <p className={styles.name}>yeri</p>
           </div>
-          
+
         </div>
 
       </div>
