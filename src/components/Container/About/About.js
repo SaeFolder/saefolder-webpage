@@ -1,5 +1,5 @@
 import React from 'react';
-import VisualWrap from './VisualWrap/VisualWrap'
+import AboutHeader from './AboutHeader/AboutHeader'
 import Introduce from './Introduce/Introduce'
 import Crew from './Crew/Crew'
 import Vision from './Vision/Vision'
@@ -22,7 +22,7 @@ import Vision from './Vision/Vision'
 const About=() => {
   return(
     <div>
-      <VisualWrap/>
+      <AboutHeader/>
       <Introduce/>
       <Crew/>
       <Vision/>

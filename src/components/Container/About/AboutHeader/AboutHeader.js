@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import styles from './VisualWrap.scss';
+import styles from './AboutHeader.scss';
 
-class VisualWrap extends Component {
+class AboutHeader extends Component {
   state = {  }
   render() {
     return (
@@ -23,4 +23,4 @@ class VisualWrap extends Component {
   }
 }
 
-export default VisualWrap;
+export default AboutHeader;
