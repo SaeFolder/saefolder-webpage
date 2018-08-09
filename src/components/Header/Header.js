@@ -7,10 +7,12 @@ class Header extends Component {
   render() {
     return (
       <div className={styles.Header}>
-        <img src={logo} className={styles.logo} alt="logo" />
+        <a href="about">
+          <img src={logo} className={styles.logo} alt="logo" />
+        </a>
         <div className={styles.button}>
-          <button className={styles.buttonc}>크루소개</button>
-          <button className={styles.buttonp}>Product</button>
+          <a className={styles.buttonc} href="Crew">Crew</a>
+          <a className={styles.buttonp} href="Product">Product</a>
         </div>
       </div>
     );
