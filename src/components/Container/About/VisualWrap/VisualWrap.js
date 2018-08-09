@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styles from './VisualWrap.scss';
-import mainimg from '../../../../assets/img/main_image.png'
 
 class VisualWrap extends Component {
   state = {  }
