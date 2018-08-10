@@ -1,8 +1,7 @@
 import React from 'react';
 import AboutHeader from './AboutHeader/AboutHeader'
-import Introduce from './Introduce/Introduce'
-import Crew from './Crew/Crew'
 import Vision from './Vision/Vision'
+import AboutProduct from './AboutProduct/AboutProduct'
 
 
 // class about extends Component {
@@ -23,9 +22,8 @@ const About=() => {
   return(
     <div>
       <AboutHeader/>
-      <Introduce/>
-      <Crew/>
       <Vision/>
+      <AboutProduct/>
     </div>
   );
 };
