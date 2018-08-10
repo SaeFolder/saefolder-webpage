@@ -6,7 +6,7 @@ class AboutProduct extends Component {
   render() {
     return (
       <div>
-        AboutProduct
+        AboutProduct1
       </div>
     );
   }
