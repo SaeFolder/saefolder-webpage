@@ -10,9 +10,9 @@ class Header extends Component {
         <a href="about">
           <img src={logo} className={styles.logo} alt="logo" />
         </a>
-        <div className={styles.button}>
-          <a className={styles.buttonc} href="Crew">Crew</a>
-          <a className={styles.buttonp} href="Product">Product</a>
+        <div className={styles.menu}>
+          <a className={styles.link_1} href="Crew">Crew</a>
+          <a className={styles.link_2} href="Product">Product</a>
         </div>
       </div>
     );
