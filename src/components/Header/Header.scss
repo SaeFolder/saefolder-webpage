@@ -2,31 +2,35 @@
 
     // 상단 바
     display: inline-block;
-    width: 100%;
-    min-width: 640px;
-    height: 135px;
     background-color: #2E3192;
+    // width: 1920px 기준
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-top: 9.84375%;
+
 
     // saefolder 로고
     .logo {
-        width: 393.75px;
-        height: 67.5px;
+        // width: 1920px 기준
+        width: 522px;
+        height: 92px;
         position: relative;
-        top: 69.75px; // 상단 바의 하단에 딱 붙게 하기 위해 2.25px 걸쳐줌.
-        padding-left: 45px;
+        top: 97px;
+        padding-left: 62px;
+        object-fit: contain;
     }
 
     // 크루소개, Product 버튼
-    .button {
-
+    .menu {
 
         float: right;
         position: relative;
-        top: 78.75px;
+        top: 114px;
         padding-right: 90px;
 
         // 크루소개, Product 버튼 둘다
-        .buttonc, .buttonp {
+        .link_1, .link_2 {
             padding: 0;
             font-size: 33.75px;
             background: transparent;
@@ -37,7 +41,7 @@
         }
 
         // 크루소개 버튼만
-        .buttonc {
+        .link_1 {
             margin-right: 157.5px;
         }
     }
