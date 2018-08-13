@@ -1,30 +1,30 @@
-
 .vision {
-  width: 100%;
-  min-width: 640px;
-  height: 945px;
+  width: 100vw;
   
   .header{
-    padding-top: 94.5px;
+
+    padding-top: calc(205vw / 19.2);
+    height: calc(160vw / 19.2);
     display: block;
-    display: flex;
-    text-align: left;
-    height: 234px;
-  
+    
     .title {
+      width: calc(454vw / 19.2);
+      height: calc(83vw / 19.2);
+      text-align: left;
       color: #000599;
       position: relative;
       display: inline-block;
-      padding-left: 101.25px;
-      font-size: 73.125px;
+      padding-left: calc(118vw / 19.2);
+      font-size: calc(110vw / 19.2);
       bottom: 29.75px;
-      letter-spacing: 27px;
+      letter-spacing: calc(22vw / 19.2);
       font-weight: bold;
     }
 
     // 반원
     .title_img{
-      height: 121.5px;
+      width: calc(77vw/ 19.2);
+      height: calc(160vw / 19.2);
     }
   }
   

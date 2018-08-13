@@ -7,7 +7,7 @@ class Header extends Component {
   render() {
     return (
       <div className={styles.Header}>
-        <a href="about">
+        <a className={styles.logobox} href="about">
           <img src={logo} className={styles.logo} alt="logo" />
         </a>
         <div className={styles.menu}>

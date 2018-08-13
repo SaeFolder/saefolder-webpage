@@ -13,8 +13,10 @@ class Vision extends Component {
 
         {/* VISION */}
         <div className={styles.header}>
-          <img src={Ellipse1} className={styles.title_img}  alt="img"/>
-          <h1 className={styles.title}>VISION</h1>
+          <img src={Ellipse1} className={styles.title_img} alt="img"/>
+          <div className={styles.title}>
+            VISION
+          </div>
         </div>
 
         {/* 내용 */}

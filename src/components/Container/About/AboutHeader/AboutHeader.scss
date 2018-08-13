@@ -1,37 +1,42 @@
 .main {
+
     // 백그라운드 이미지
-    background-image: url('../../../../assets/img/main_image.png');
+    background-image: url('../../../../assets/img/main_image.jpeg');
     background-size: cover;
-    height: 778.5px;
-    min-width: 640px;
-    // display: block;
+    width: 100vw;
+    height: calc(1123vw / 19.2);
+    // overflow: hidden;
+    display: inline-block;
     position: relative;
+    // top: calc(-8vw / 19.2);
     
     .text{
         position: absolute;
-        width: 100%;
-        height: 778.5px;
+        width: 100vw;
         color: white;
         text-align: center;
+        font-family: GoyangIlsan;
         
         // our name
         .text_1{
-            font-size: 45px;
-            letter-spacing: 6.75px;
-            padding-top: 229.5px;
+            font-size: calc(60vw / 19.2);
+            letter-spacing: calc(18vw / 19.2);
+            padding-top: calc(368vw / 19.2);
         }
 
         // 새 로 운 시 작
         .text_2{
-            font-size: 54px;
-            word-spacing: 200px;
-            padding-top: 72px;
+            font-size: calc(72vw / 19.2);
+            word-spacing: calc(288vw / 19.2);
+            padding-top: calc(134vw / 19.2);
+            line-height: calc(48vw / 19.2);
         }
 
         //주말~
         .text_3{
-            font-size: 22.5px;
-            padding-top: 72px;
+            font-size: calc(30vw / 19.2);
+            padding-top: calc(135vw / 19.2);
+            line-height: calc(72vw / 19.2);
         }
         
     }
