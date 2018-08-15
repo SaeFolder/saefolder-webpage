@@ -7,13 +7,16 @@ class Header extends Component {
   render() {
     return (
       <div className={styles.Header}>
+
         <a className={styles.logobox} href="about">
           <img src={logo} className={styles.logo} alt="logo" />
         </a>
+
         <div className={styles.menu}>
           <a className={styles.link_1} href="Crew">Crew</a>
           <a className={styles.link_2} href="Product">Product</a>
         </div>
+        
       </div>
     );
   }

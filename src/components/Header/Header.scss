@@ -1,15 +1,13 @@
 .Header {
+    
     // 상단 바
-    display: inline-block;
+    display: block;
     background-color: #2E3192;
-    // width: 1920px 기준
     width: 100vw;
     height: calc(189vw / 19.2);
     
-
     // saefolder 로고
     .logo {
-        // width: 1920px 기준
         width: calc(522vw / 19.2);
         height: calc(92vw / 19.2);
         padding-left: calc(62vw / 19.2);
@@ -44,5 +42,3 @@
         }
     }
 }
-
-// 폰트 수정 필요 

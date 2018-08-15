@@ -1,0 +1,62 @@
+.AboutProduct {
+    width: 100vw;
+}
+
+.title {
+    width: 100vw;
+    height: calc(267vw / 19.2);
+    direction: rtl;
+
+    // 텍스트
+    .text_subtitle {
+        display: inline-block;
+        font-size: calc(30vw / 19.2);
+        line-height: calc(45vw / 19.2);
+        text-align: right;
+        position: relative;
+        bottom: calc(50vw / 19.2);
+        padding-right: calc(52vw / 19.2);
+    }
+
+    // 수직선
+    .vertical_line {
+        width: calc(5vw / 19.2);
+        height: calc(96vw / 19.2);
+        position: relative;
+        margin: 0;
+        display: inline-block;
+        bottom: calc(33vw / 19.2);
+        background-color: #000599;
+        border-style: hidden;
+    }
+
+    // PRODUCTS
+    .text_title {
+        width: calc(709vw / 19.2);
+        height: calc(83vw / 19.2);
+        text-align: left;
+        color: #000599;
+        position: relative;
+        display: inline-block;
+        font-size: calc(110vw / 19.2);
+        letter-spacing: calc(22vw / 19.2);
+        font-weight: bold;
+        padding-left: calc(101vw / 19.2);
+        bottom: calc(45vw / 19.2);
+    }
+
+    // 반원_오른쪽
+    .semicircle_right {
+        display: inline-block;
+        position: relative;
+        width: calc(83vw / 19.2);
+        height: calc(160vw / 19.2);
+        padding-left: calc(57vw / 19.2);
+    }
+}
+
+.contents {
+    width: 100vw;
+    height: calc(595vw / 19.2);
+    display: block;
+}
