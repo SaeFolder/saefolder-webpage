@@ -59,4 +59,59 @@
     width: 100vw;
     height: calc(595vw / 19.2);
     display: block;
+
+    // 왼쪽 여백
+    .space_left {
+        width: calc(355vw / 19.2);
+        height: calc(595vw / 19.2);
+        display: inline-block;
+
+        .parallelogram_1 {
+            display: inline-block;
+            width: calc(1112vw / 19.2);
+            height: calc(595vw / 19.2);
+            position: relative;
+            right: calc(780vw / 19.2);
+            z-index: 2;
+        }
+
+        .arrow_1, .arrow_2 {
+            height: calc(83vw / 19.2);
+            display: inline-block;
+            position: absolute;
+            top: calc(3018vw / 19.2);
+            z-index: 100;
+        }
+
+        .arrow_2 {
+            width: calc(88vw / 19.2);
+            left: calc(113vw / 19.2);
+        }
+
+        .arrow_1 {
+            width: calc(39vw / 19.2);
+            left: calc(206vw / 19.2);
+
+        }
+    }
+
+    // Products 1
+    .products_1 {
+        width: calc(1112vw / 19.2);
+        height: calc(595vw / 19.2);
+        display: inline-block;
+        background-image: url('../../../../assets/img/parallelogram.png');
+        position: relative;
+        right: calc(304vw / 19.2);
+        // z-index: 3;
+
+        .img_products_1 {
+            width: calc(741vw / 19.2);
+            height: calc(595vw / 19.2);
+            display: inline-block;
+            position: relative;
+            left: calc(220vw / 19.2);
+            z-index: 1;
+        }
+    }
 }
