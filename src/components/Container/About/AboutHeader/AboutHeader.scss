@@ -3,7 +3,7 @@
     // 백그라운드 이미지
     background-image: url('../../../../assets/img/main_image.jpeg');
     background-size: cover;
-    width: 100vw;
+    width: calc(1920vw / 19.2);
     height: calc(1123vw / 19.2);
     // overflow: hidden;
     display: inline-block;
