@@ -65,8 +65,9 @@
         width: calc(355vw / 19.2);
         height: calc(595vw / 19.2);
         display: inline-block;
+        overflow: hidden;
 
-        .parallelogram_1 {
+        .parallelogram_left {
             display: inline-block;
             width: calc(1112vw / 19.2);
             height: calc(595vw / 19.2);
@@ -100,7 +101,8 @@
         width: calc(1112vw / 19.2);
         height: calc(595vw / 19.2);
         display: inline-block;
-        background-image: url('../../../../assets/img/parallelogram.png');
+        // background-image: url('../../../../assets/img/parallelogram.png');
+        background-color: #8781BD;
         position: relative;
         right: calc(304vw / 19.2);
         // z-index: 3;
@@ -112,6 +114,69 @@
             position: relative;
             left: calc(220vw / 19.2);
             z-index: 1;
+        }
+    }
+    
+    // gap_1
+    .gap_1{
+        display: inline-block;
+        position: relative;
+        right: calc(583vw / 19.2);
+        width: 0;
+        height: 0;
+        z-index: 1000;
+        border-bottom: calc(261.7vw / 19.2) solid #8393ca;
+        border-left: calc(128vw / 19.2) solid transparent;
+    }
+
+    // gap_2
+    .gap_2 {
+        display: inline-block;
+        position: relative;
+        right: calc(583vw / 19.2);
+        bottom: calc(261.7vw / 19.2);
+        width: 0;
+	    height: 0;
+	    border-top: calc(333.3vw / 19.2) solid #8781BD;
+	    border-right: calc(163vw / 19.2) solid transparent;
+        z-index: 1000;
+    }
+
+    // Products 2
+    .products_2 {
+        width: calc(1035vw / 19.2);
+        height: calc(595vw / 19.2);
+        display: inline-block;
+        position: relative;
+        bottom: calc(599vw / 19.2);
+        left: calc(885vw / 19.2);
+        background-color: #8393ca;
+
+        .img_products_2 {
+            width: calc(783vw / 19.2);
+            height: calc(595vw / 19.2);
+            display: inline-block;
+            position: relative;
+            left: calc(127vw / 19.2);
+        }
+    }
+
+    // 오른쪽 여백
+    .space_right {
+        width: calc(222vw / 19.2);
+        height: calc(595vw / 19.2);
+        display: inline-block;
+        position: relative;
+        bottom: calc(599vw / 19.2);
+        left: calc(661vw / 19.2);
+        overflow: hidden;
+
+        .parallelogram_right {
+            display: inline-block;
+            width: calc(1112vw / 19.2);
+            height: calc(595vw / 19.2);
+            position: relative;
+            left: calc(25vw / 19.2);
         }
     }
 }
