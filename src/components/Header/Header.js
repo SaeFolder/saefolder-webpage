@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Header.scss';
-import logo from '../../assets/img/saefolder_logo.png'
+import logo from 'img/saefolder_logo.png'
 
 class Header extends Component {
   state = {  }
@@ -16,7 +16,7 @@ class Header extends Component {
           <a className={styles.link_1} href="Crew">Crew</a>
           <a className={styles.link_2} href="Product">Product</a>
         </div>
-        
+
       </div>
     );
   }
