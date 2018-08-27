@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Header.scss';
-import logo from 'img/saefolder_logo.png'
+import logo from 'assets/img/saefolder_logo.png'
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   state = {  }
@@ -8,13 +9,13 @@ class Header extends Component {
     return (
       <div className={styles.Header}>
 
-        <a className={styles.logobox} href="about">
+        <Link className={styles.logobox} to="/about">
           <img src={logo} className={styles.logo} alt="logo" />
-        </a>
+        </Link>
 
         <div className={styles.menu}>
-          <a className={styles.link_1} href="Crew">Crew</a>
-          <a className={styles.link_2} href="Product">Product</a>
+          <Link className={styles.link_1} to="/Crew">Crew</Link>
+          <Link className={styles.link_2} to="/Product">Product</Link>
         </div>
 
       </div>
