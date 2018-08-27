@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styles from './Crew.scss';
 import CrewHeader from './CrewHeader/CrewHeader'
 import CrewGoal from './CrewGoal/CrewGoal'
 

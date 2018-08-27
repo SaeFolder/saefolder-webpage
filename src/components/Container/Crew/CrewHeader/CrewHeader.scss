@@ -1,0 +1,66 @@
+.header{
+  width: calc(1935vw / 19.2);
+  height: calc(1123vw / 19.2);
+  background-image: url('assets/img/crewgoal_bg.png');
+  overflow: hidden;
+  position: relative;
+  right: calc(15vw / 19.2);
+
+  .container{
+    display: flex;
+
+    .goaltxt{
+      margin-top: calc(222vw / 19.2);
+      margin-left: calc(181vw / 19.2);
+      font-size: calc(60vw / 19.2);
+      letter-spacing: calc(18vw / 19.2);
+      color: #ffffff
+    }
+
+    .vertical_line{
+      height: calc(807vw / 19.2);
+      width: calc(3vw / 19.2);
+      margin-left: calc(103vw / 19.2);
+      margin-top: calc(131vw / 19.2);
+      margin-right: 0;
+      background-color: #ffffff
+    }
+
+    .txtlist{
+      margin-top: calc(247vw / 19.2);
+      margin-left: calc(83vw / 19.2);
+      width: calc(391vw / 19.2);
+      height: calc(619vw / 19.2);
+
+      .txt{
+        font-size: calc(40vw / 19.2);
+        color: #ffffff
+      }
+    }
+
+    .squarebox{
+      width: calc(831vw / 19.2);
+      height: calc(831vw / 19.2);
+      margin-top: calc(102vw / 19.2);
+      margin-left: calc(135vw / 19.2);
+    }
+
+    .square{
+      width: calc(588vw / 19.2);
+      height: calc(588vw / 19.2);
+      border: solid calc(2vw / 19.2);
+      transform: rotate(45deg);
+      margin-top: calc(120vw / 19.2);
+      margin-left: calc(120vw / 19.2);
+      color: #ffffff;
+
+      .logo{
+        width: calc(522vw / 19.2);
+        height: calc(92vw / 19.2);
+        transform: rotate(315deg);
+        margin-top: calc(230vw / 19.2);
+        margin-left: calc(35vw / 19.2);
+      }
+    }
+  }
+}

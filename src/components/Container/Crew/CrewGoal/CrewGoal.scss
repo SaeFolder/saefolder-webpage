@@ -1,0 +1,44 @@
+.introduce {
+    margin-top: calc(206vw / 19.2);
+    width: 100%;
+    min-width: 640px;
+    height: 486px;
+    position: relative;
+
+    .box {
+      height: clac(160vw / 19.2);
+      display: flex;
+
+        // 반원
+        .ellipse_1 {
+          height: calc(160vw / 19.2);
+        }
+
+        // '새폴더'
+        .text_1 {
+            color: #000599;
+            padding-top: calc(13vw / 19.2);
+            margin-left: calc(136vw / 19.2);
+            font-size: calc(120vw / 19.2);
+            letter-spacing: calc(24vw / 19.2);
+            font-weight: bold;
+        }
+
+        // '기상청이 앞으로 ~'
+        .text_2 {
+            color: #000000;
+            font-size: calc(25vw / 19.2);
+            padding-left: calc(132vw / 19.2);
+            line-height: calc(60vw / 19.2);
+            width: calc(1061vw / 19.2);
+        }
+    }
+
+    .bg {
+        width: 513px;
+        position: relative;
+        float: right;
+        bottom: 70px;
+        right: 59px;
+    }
+}
