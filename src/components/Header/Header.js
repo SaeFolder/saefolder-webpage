@@ -24,10 +24,3 @@ class Header extends Component {
 }
 
 export default Header;
-
-/* 메모장
-
-크루소개 버튼 className : buttonc
-Product 버튼 className : buttonp
-
-*/

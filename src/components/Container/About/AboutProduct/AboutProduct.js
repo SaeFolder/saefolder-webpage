@@ -30,13 +30,13 @@ class AboutProduct extends Component {
         <div className={styles.contents}>
 
           <div className={styles.space_left}>
-            <img src={parallelogram} className={styles.parallelogram_left} />
-            <img src={arrow_2} className={styles.arrow_2} />
-            <img src={arrow_1} className={styles.arrow_1} />
+            <img src={parallelogram} className={styles.parallelogram_left} alt={parallelogram}/>
+            <img src={arrow_2} className={styles.arrow_2} alt={arrow_2}/>
+            <img src={arrow_1} className={styles.arrow_1} alt={arrow_1}/>
           </div>
 
           <div className={styles.products_1}>
-            <img src={img_products_1} className={styles.img_products_1} />
+            <img src={img_products_1} className={styles.img_products_1} alt={img_products_1}/>
           </div>
 
           <div className={styles.gap_1}>
@@ -46,11 +46,11 @@ class AboutProduct extends Component {
           </div>
 
           <div className={styles.products_2}>
-            <img src={img_products_2} className={styles.img_products_2} />
+            <img src={img_products_2} className={styles.img_products_2} alt={img_products_2}/>
           </div>
 
           <div className={styles.space_right}>
-            <img src={parallelogram} className={styles.parallelogram_right} />
+            <img src={parallelogram} className={styles.parallelogram_right} alt={parallelogram}/>
           </div>
 
         </div>
