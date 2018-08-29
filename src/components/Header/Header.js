@@ -7,7 +7,6 @@ class Header extends Component {
   state = {  }
   render() {
     const currentPage = window.location.pathname;
-    console.log(currentPage);
     return (
       <div className={styles.Header}>
 
@@ -16,7 +15,7 @@ class Header extends Component {
         </Link>
         {
           (function() {
-            if (currentPage === "/about") return (
+            if (currentPage === "/about" || currentPage === "/") return (
               <div className={styles.menu}>
                 <div className={styles.menu_link_1}>
                   <Link className={styles.link_1} to="/crew">Crew</Link>
