@@ -1,105 +1,64 @@
-// 아이린
-.intro1{
-  height: calc(700vw / 19.2);
+.first {
   margin-top: calc(215vw / 19.2);
+}
+.intro{
+  height: calc(700vw / 19.2);
+  .intro_top_ln{
+    position: absolute;
+    margin-top: calc(26vw / 19.2);
+    width: calc(1920vw / 19.2);
+    height: calc(19vw / 19.2);
+  }
 
-    // 아이린 사진
-  .intro1_contents{
-    display: flex;
+  .intro_bottom_ln{
+    position: absolute;
+    margin-top: calc(651vw / 19.2);
+    width: calc(1920vw / 19.2);
+    height: calc(19vw / 19.2);
+  }
+  .intro_contentsLeft{
+    flex-direction: row-reverse;
+  }
+  .intro_contentsRight{
     flex-direction: row;
+  }
+  .intro_contents{
+    display: flex;
     height: 100%;
     width : calc(1920vw / 19.2);
 
-    .irene{
+    .intro_contents_img{
       width: calc(960vw / 19.2);
       height: 100%;
     }
 
-    .irene_info{
-
+    .intro_contents_info{
       width: 50%;
 
-      .irene_name{
+      .intro_contents_info_name{
         color: #2E3192;
         font-size: calc(72vw / 19.2);
         margin-top: calc(158vw / 19.2);
         margin-left: calc(87vw / 19.2);
       }
-
-      .irene_prev{
+      .intro_contents_info_nameLeft {
+        text-align: left;
+      }
+      .intro_contents_info_nameRight {
+        text-align: right;
+      }
+      .intro_contents_info_desc{
         margin-left: calc(139vw / 19.2);
         margin-top: calc(105vw / 19.2);
         font-size: calc(30vw / 19.2);
         color: #000000;
+      }
+      .intro_contents_info_descLeft{
         text-align: left;
       }
-    }
-  }
-  .intro1_top_ln{
-    position: absolute;
-    margin-top: calc(26vw / 19.2);
-    width: calc(1920vw / 19.2);
-    height: calc(19vw / 19.2);
-  }
-
-  .intro1_bottom_ln{
-    position: absolute;
-    margin-top: calc(651vw / 19.2);
-    width: calc(1920vw / 19.2);
-    height: calc(19vw / 19.2);
-  }
-}
-
-
-// 슬기
-.intro2{
-  height: calc(700vw / 19.2);
-
-  // 슬기 사진 및 설명
-  .intro2_contents{
-    display: flex;
-    flex-direction: row-reverse;
-    height: 100%;
-    width : calc(1920vw / 19.2);
-
-    .seulgi{
-      width: calc(960vw / 19.2);
-      height: 100%;
-    }
-
-    .seulgi_info{
-
-      width: 50%;
-
-      .seulgi_name{
-        color: #2E3192;
-        text-align: right;
-        font-size: calc(72vw / 19.2);
-        margin-top: calc(158vw / 19.2);
-        margin-right: calc(87vw / 19.2);
-      }
-
-      .seulgi_prev{
-        margin-right: calc(139vw / 19.2);
-        margin-top: calc(105vw / 19.2);
-        font-size: calc(30vw / 19.2);
-        color: #000000;
+      .intro_contents_info_descRight{
         text-align: right;
       }
     }
-  }
-
-  .intro2_top_ln{
-    position: absolute;
-    margin-top: calc(26vw / 19.2);
-    width: calc(1920vw / 19.2);
-    height: calc(19vw / 19.2);
-  }
-
-  .intro2_bottom_ln {
-    position: absolute;
-    margin-top: calc(651vw / 19.2);
-    width: calc(1920vw / 19.2);
-    height: calc(19vw / 19.2);
   }
 }

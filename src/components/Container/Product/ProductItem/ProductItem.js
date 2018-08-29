@@ -1,69 +1,31 @@
 import React, { Component } from 'react';
 import styles from './ProductItem.scss';
-import line_img from '../../../../../src/assets/img/line_img.png';
-import irene from '../../../../../src/assets/img/irene_4.png';
-import seulgi from '../../../../../src/assets/img/seulgi_4.png';
-import { ProductListConsumer } from 'contexts/product_list';
+import line_img from 'assets/img/line_img.png';
 
 class ProductItem extends Component {
   state = {  }
   render() {
+    const first = this.props.i === 0 ? styles.first : "";
+    const intro_contents = this.props.i % 2 === 0 ? styles.intro_contentsRight : styles.intro_contentsLeft;
+    const intro_contents_info_name = this.props.i % 2 === 0 ? styles.intro_contents_info_nameRight : styles.intro_contents_info_nameLeft;
+    const intro_contents_info_desc = this.props.i % 2 === 0 ? styles.intro_contents_info_descRight : styles.intro_contents_info_descLeft;
     return (
-        <div>
-          {/* 아이린, 슬기 */}
-          <div className={styles.intro}>
-
-            {/* 아이린 */}
-            <div className={styles.intro1}>
-              <img src={line_img} className={styles.intro1_top_ln} alt="img"/>
-              <img src={line_img} className={styles.intro1_bottom_ln} alt="img"/>
-              <div className={styles.intro1_contents}>
-                <img src={irene} className={styles.irene} alt="img"/>
-                <div className={styles.irene_info}>
-                  <p className={styles.irene_name}>
-                    아이린&nbsp;&nbsp;IRINE
-                  </p>
-                  <p className={styles.irene_prev}>
-                    Bae Joo-hyun, known professionally as Irene, <br/>
-                    is a South Korean singer, actress and television host. <br/>
-                    She is a member and leader of the South Korean girl group <br/>
-                    Red Velvet.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* 슬기 */}
-            <div className={styles.intro2}>
-              <img src={line_img} className={styles.intro2_top_ln} alt="img"/>
-              <img src={line_img} className={styles.intro2_bottom_ln} alt="img"/>
-              <div className={styles.intro2_contents}>
-                <img src={seulgi} className={styles.seulgi} alt="img"/>
-                <div className={styles.seulgi_info}>
-                  <p className={styles.seulgi_name}>
-                    슬기&nbsp;&nbsp;SEULGI
-                  </p>
-                  <p className={styles.seulgi_prev}>
-                    Kang Seul-gi, referred to as Seulgi, is a South Korean singer. <br />
-                    She is a member of South Korean girl group Red Velvet. <br />
-                    Kang Seul-gi, referred to as Seulgi, is a South Korean singer. <br />
-                    She is a member of South Korean girl group Red Velvet.
-                  </p>
-                </div>
-              </div>
-            </div>
-
+      <div className={[styles.intro, first].join(" ")}>
+        <img src={line_img} className={styles.intro_top_ln} alt="img"/>
+        <img src={line_img} className={styles.intro_bottom_ln} alt="img"/>
+        <div className={[styles.intro_contents,intro_contents].join(' ')}>
+          <img src={this.props.image} className={styles.intro_contents_img} alt="img"/>
+          <div className={styles.intro_contents_info}>
+            <p className={[styles.intro_contents_info_name, intro_contents_info_name].join(' ')}>
+              <a href={this.props.url}> </a>
+              {this.props.title}&nbsp;&nbsp;IRINE
+            </p>
+            <p className={[styles.intro_contents_info_desc, intro_contents_info_desc].join(' ')}>
+              {this.props.description}
+            </p>
           </div>
-          <ProductListConsumer>
-            {
-              (products) => (
-                <div>
-                  {JSON.stringify(products)}
-                </div>
-              )
-            }
-          </ProductListConsumer>
         </div>
+      </div>
     );
   }
 }
