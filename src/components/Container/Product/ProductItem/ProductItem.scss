@@ -39,25 +39,27 @@
         color: #2E3192;
         font-size: calc(72vw / 19.2);
         margin-top: calc(158vw / 19.2);
-        margin-left: calc(87vw / 19.2);
       }
       .intro_contents_info_nameLeft {
         text-align: left;
+        margin-left: calc(87vw / 19.2);
       }
       .intro_contents_info_nameRight {
         text-align: right;
+        margin-right: calc(87vw / 19.2);
       }
       .intro_contents_info_desc{
-        margin-left: calc(139vw / 19.2);
         margin-top: calc(105vw / 19.2);
         font-size: calc(30vw / 19.2);
         color: #000000;
       }
       .intro_contents_info_descLeft{
         text-align: left;
+        margin-left: calc(139vw / 19.2);
       }
       .intro_contents_info_descRight{
         text-align: right;
+        margin-right: calc(139vw / 19.2);
       }
     }
   }
