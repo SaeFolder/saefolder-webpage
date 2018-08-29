@@ -32,19 +32,19 @@ class Vision extends Component {
           <div className={styles.figure_1}>
             <img src={figure_1} className={styles.img_figure_1} alt="img"/>
             <hr className={styles.horizontal_line}/>
-            <p className={styles.name}>wendy</p>
+            <p className={styles.name}>돈</p>
           </div>
 
           <div className={styles.figure_2}>
             <img src={figure_2} className={styles.img_figure_2} alt="img"/>
             <hr className={styles.horizontal_line}/>
-            <p className={styles.name}>joy</p>
+            <p className={styles.name}>경험</p>
           </div>
 
           <div className={styles.figure_3}>
             <img src={figure_3} className={styles.img_figure_3} alt="img"/>
             <hr className={styles.horizontal_line}/>
-            <p className={styles.name}>yeri</p>
+            <p className={styles.name}>인맥</p>
           </div>
 
         </div>
