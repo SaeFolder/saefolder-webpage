@@ -18,27 +18,103 @@
     
     // 크루소개, Product
     .menu {
-        
         float: right;
         position: relative;
-        top: calc(114vw / 19.2);
-        padding-right: calc(118vw / 19.2);
+        height: calc(189vw / 19.2);
+
+        .menu_link_1, .menu_link_2,
+        .menu_link_1_click_1, .menu_link_2_click_1,
+        .menu_link_1_click_2, .menu_link_2_click_2 {
+            display: inline-block;
+            width: calc(470vw / 19.2);
+            height: calc(189vw / 19.2);
+            position: relative;
+        }
+
+        .menu_link_1, .menu_link_1_click_1, .menu_link_1_click_2 {
+            left: calc(100vw / 19.2);
+        }
         
         // 크루소개, Product 버튼 둘다
-        .link_1, .link_2 {
+        .link_1, .link_2,
+        .link_1_click_1, .link_2_click_1,
+        .link_1_click_2, .link_2_click_2 {
             padding: 0;
             background: transparent;
-            border: hidden;
+            // border: hidden;
             color: white;
             font-size: calc(43vw / 19.2);
             letter-spacing: calc(12.9vw / 19.2); // 자간
             text-decoration: none;
             line-height: calc(60vw / 19.2);
+            position: relative;
+            top: calc(114vw / 19.2);
         }
         
-        // 크루소개 버튼만
-        .link_1 {
-            margin-right: calc(214vw / 19.2);
+        .link_1, .link_1_click_1, .link_1_click_2 {
+            left: calc(112vw / 19.2);
+        }
+        .link_2, .link_2_click_1, .link_2_click_2 {
+            left: calc(95vw / 19.2);
+        }
+
+        .link_1_click_1 {
+            border-bottom: calc(1vw / 19.2) solid white; 
+            position: absolute;
+        }
+
+        .menu_link_1_click_1 {
+            background-image: url('assets/img/crewgoal_bg.png');
+        }
+
+        .bg_tri_1_click_1 {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-top: calc(189vw / 19.2) solid #2E3192;
+            border-right: calc(114vw / 19.2) solid transparent;
+        }
+
+        .bg_tri_2_click_1 {
+            display: inline-block;
+            position: relative;
+            left: calc(242vw / 19.2);
+            width: 0;
+            height: 0;
+            border-bottom: calc(189vw / 19.2) solid #2E3192;
+            border-left: calc(114vw / 19.2) solid transparent;
+        }
+
+        .menu_link_2_click_1, .menu_link_1_click_2 {
+            bottom: calc(146vw / 19.2);
+        }
+
+        .menu_link_2_click_2 {
+            background: white;
+        }
+        
+        .link_2_click_2 {
+            color: #2E3192;
+            border-bottom: calc(1vw / 19.2) solid #2e3192;
+            position: absolute;
+        }
+
+        .bg_tri_1_click_2 {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-top: calc(189vw / 19.2) solid #2E3192;
+            border-right: calc(114vw / 19.2) solid transparent;
+        }
+
+        .bg_tri_2_click_2 {
+            display: inline-block;
+            position: relative;
+            left: calc(242vw / 19.2);
+            width: 0;
+            height: 0;
+            border-bottom: calc(189vw / 19.2) solid #2E3192;
+            border-left: calc(114vw / 19.2) solid transparent;
         }
     }
 }
