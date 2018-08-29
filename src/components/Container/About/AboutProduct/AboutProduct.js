@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import styles from './AboutProduct.scss';
-import semicircle_right from '../../../../assets/img/semicircle_right.png';
-import parallelogram from '../../../../assets/img/parallelogram.png';
-import arrow_1 from '../../../../assets/img/arrow_1.png';
-import arrow_2 from '../../../../assets/img/arrow_2.png';
-import img_products_1 from '../../../../assets/img/img_products_1.jpg';
-import img_products_2 from '../../../../assets/img/img_products_2.jpg';
+import semicircle_right from 'assets/img/semicircle_right.png';
+import parallelogram from 'assets/img/parallelogram.png';
+import arrow_1 from 'assets/img/arrow_1.png';
+import arrow_2 from 'assets/img/arrow_2.png';
+import img_products_1 from 'assets/img/img_products_1.jpg';
+import img_products_2 from 'assets/img/img_products_2.jpg';
 
 class AboutProduct extends Component {
   state = {  }

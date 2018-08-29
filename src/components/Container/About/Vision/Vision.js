@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import styles from './Vision.scss';
-import semicircle_left from '../../../../../src/assets/img/semicircle_left.png';
-import figure_1 from '../../../../../src/assets/img/icon1.png';
-import figure_2 from '../../../../../src/assets/img/icon2.png';
-import figure_3 from '../../../../../src/assets/img/icon3.png';
-import circles from '../../../../assets/img/circles.png';
+import semicircle_left from 'assets/img/semicircle_left.png';
+import figure_1 from 'assets/img/icon1.png';
+import figure_2 from 'assets/img/icon2.png';
+import figure_3 from 'assets/img/icon3.png';
+import circles from 'assets/img/circles.png';
 
 class Vision extends Component {
   state = {  }
