@@ -8,17 +8,17 @@ class CrewHeader extends Component {
     return (
       <div className = {styles.header}>
         <div className = {styles.container}>
-          <div className = {styles.goaltxt}>목표</div>
+          <div className = {styles.goaltxt}>가치관</div>
           <hr className={styles.vertical_line}/>
           <div className = {styles.txtlist}>
             <div className = {styles.txt}>
-              히아신스  Hyacinth<br/><br/><br/><br/>
+              열정 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Passion<br/><br/><br/><br/>
 
-              측백나무  Arborvitae<br/><br/><br/><br/>
+              수평성  &nbsp;&nbsp;&nbsp;&nbsp;Levelness<br/><br/><br/><br/>
 
-              수선화  Narcissus<br/><br/><br/><br/>
+              창조성 &nbsp;&nbsp;&nbsp;&nbsp;Creativity<br/><br/><br/><br/>
 
-              시클라멘  Cyclamen
+              도전정신 &nbsp;Challenge spirit
             </div>
           </div>
           <div className = {styles.squarebox}>
